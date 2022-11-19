@@ -34,6 +34,7 @@ export function NewAndEditNote({ edit }: { edit?: boolean }) {
 
         navigate('..')
     }
+    //note for git
     return (
         <>
             <h1 className="mb-4">{edit ? 'Edit' : 'New'} Note</h1>
